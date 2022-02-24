@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(to right, lightsalmon, crimson);
+}
+
+.app{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoimg{
+    margin: 2rem;
+    width: 50%;
+    transition-duration: 0.5s;
+}
+
+.logoimg:hover{
+    width: 55%;
+    transition-duration: 0.5s;
+}
+
+.contcomp{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+
+.contimg{
+    width: 8rem;
+    height: 12.25rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    transition-duration: 0.5s;
+}
+
+.contimg:hover{
+    width: 16rem;
+    height: 24.5rem;
+    transition-duration: 0.5s;
+}
+
+p{
+    color: white;
+    display: block;
+    width: 200px;
+    height: 100px;
+    text-align: justify;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+}
