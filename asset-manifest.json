@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/comic-issues/static/css/main.9dcaa348.css",
+    "main.js": "/comic-issues/static/js/main.d8a8b971.js",
+    "static/js/787.130bee83.chunk.js": "/comic-issues/static/js/787.130bee83.chunk.js",
+    "static/media/logo.png": "/comic-issues/static/media/logo.ad83448cb5526a9fd70d.png",
+    "index.html": "/comic-issues/index.html",
+    "main.9dcaa348.css.map": "/comic-issues/static/css/main.9dcaa348.css.map",
+    "main.d8a8b971.js.map": "/comic-issues/static/js/main.d8a8b971.js.map",
+    "787.130bee83.chunk.js.map": "/comic-issues/static/js/787.130bee83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dcaa348.css",
+    "static/js/main.d8a8b971.js"
+  ]
+}
