@@ -11,43 +11,58 @@ body{
     flex-wrap: wrap;
 }
 
-.logoimg{
-    margin: 2rem;
-    width: 50%;
-    transition-duration: 0.5s;
+.logocomp{
+    display: block;
+    margin: auto;
 }
 
-.logoimg:hover{
-    width: 55%;
-    transition-duration: 0.5s;
+.logoimg{
+    width: 100%;
 }
 
 .contcomp{
     display: flex;
     flex-wrap: wrap;
-    margin: 0.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0.4rem;
+    gap: 0.2rem;
 }
 
 .contimg{
+    display: block;
+    margin: 0 auto;
     width: 8rem;
     height: 12.25rem;
-    margin: 0.5rem;
-    border-radius: 0.5rem;
-    transition-duration: 0.5s;
+    border-radius: 0.4rem;
+    transition-duration: 0.4s;
 }
 
 .contimg:hover{
     width: 16rem;
     height: 24.5rem;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
+}
+
+#comics{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    border-radius: 0.4rem;
+    padding: 0.2rem;
 }
 
 p{
     color: white;
     display: block;
-    width: 200px;
-    height: 100px;
+    width: 12rem;
+    height: 4rem;
     text-align: justify;
+    font-family: 'Syne', sans-serif;
 }
 
 a{
